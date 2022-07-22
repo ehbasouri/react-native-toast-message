@@ -31,11 +31,13 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 2,
     color: '#000',
-    width: '100%' // Fixes: https://github.com/calintamas/react-native-toast-message/issues/130
+    width: '100%', // Fixes: https://github.com/calintamas/react-native-toast-message/issues/130
+    textAlign: 'left'
   },
   text2: {
     fontSize: 10,
     color: '#979797',
-    width: '100%' // Fixes: https://github.com/calintamas/react-native-toast-message/issues/130
+    width: '100%', // Fixes: https://github.com/calintamas/react-native-toast-message/issues/130
+    textAlign: 'left'
   }
 });
